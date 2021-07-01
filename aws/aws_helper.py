@@ -6,10 +6,6 @@ logger = cfg.logger
 
 
 class AwsHelper:
-    """
-
-    """
-
     def __init__(self):
         self.s3_client = boto3.client("s3", region_name=cfg.AWS_REGION)
 
